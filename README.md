@@ -1,5 +1,5 @@
 TiendaPy
-Programa de consola en Python para gestionar el inventario y las ventas de una tienda de barrio. Este proyecto fue desarrollado como trabajo final del curso Python 0 a 100 de ACM.
+Programa de consola en Python para gestionar el inventario y las ventas de una tienda de barrio. Este proyecto fue desarrollado como trabajo final del curso Python 0 a 100.
 
 Qué hace
 Registra productos nuevos en el inventario.
