@@ -1,0 +1,20 @@
+LAC001|Leche Entera 1L|Lacteos|4200.0|30|10|Alqueria
+LAC002|Yogur Fresa 200ml|Lacteos|2500.0|15|5|Alqueria
+LAC003|Queso Campesino 500g|Lacteos|8500.0|5|6|Colanta
+LAC004|Mantequilla 250g|Lacteos|4.0|3|5|Colanta
+BEB001|Agua 600ml|Bebidas|1800.0|50|10|Cristal
+BEB002|Gaseosa 1.5L|Bebidas|5800.0|8|12|Postobon
+BEB003|Jugo Mango 1L|Bebidas|4500.0|15|5|Hit
+BEB004|Bebida Energizante|Bebidas|6500.0|0|5|Vive100
+ASE001|Jabon en Polvo 1Kg|Aseo|7500.0|15|5|Familia
+ASE002|Detergente Liquido 2L|Aseo|14500.0|7|4|Ariel
+ASE003|Papel Higienico x12|Aseo|18500.0|4|8|Familia
+ASE004|Lavaloza 750ml|Aseo|6200.0|18|5|Axion
+ABA001|Arroz 1Kg|Abarrotes|3200.0|40|10|Diana
+ABA002|Azucar 1Kg|Abarrotes|3600.0|25|8|Manuelita
+ABA003|Lentejas 500g|Abarrotes|2800.0|30|10|La Muneca
+ABA004|Frijol Rojo 500g|Abarrotes|3900.0|5|5|La Muneca
+SNK001|Papas Fritas 45g|Snacks|2500.0|20|5|Margarita
+SNK002|Galletas Chocolate|Snacks|1800.0|30|10|Noel
+SNK003|Mani Salado 100g|Snacks|2200.0|6|8|Manimoto
+SNK004|Barra Cereal|Snacks|3000.0|15|5|Nature Valley
