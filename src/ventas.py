@@ -34,7 +34,7 @@ def mostrar_carrito(
         return
 
     print(
-        "\n=== CARRITO ==="
+        "\n::: CARRITO :::"
     )
 
     for codigo, cantidad in (
@@ -76,9 +76,7 @@ def registrar_venta(
 
         if producto is None:
 
-            print(
-                "Producto inexistente."
-            )
+            print("Producto inexistente.")
 
             continue
 
@@ -134,9 +132,7 @@ def registrar_venta(
 
     if not carrito:
 
-        print(
-            "Venta cancelada."
-        )
+        print("Venta cancelada.")
 
         return
 
@@ -148,9 +144,7 @@ def registrar_venta(
 
     total = subtotal - descuento
 
-    print(
-        "\n=== RESUMEN VENTA ==="
-    )
+    print("\n::: RESUMEN VENTA :::")
 
     print(
         f"Subtotal: "
@@ -206,6 +200,4 @@ def registrar_venta(
         carrito
     )
 
-    print(
-        "\nVenta registrada correctamente."
-    )
+    print("\nVenta registrada correctamente.")

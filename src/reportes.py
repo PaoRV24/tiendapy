@@ -1,8 +1,5 @@
 from collections import defaultdict
-
-from persistencia import (
-    cargar_ventas
-)
+from persistencia import cargar_ventas
 
 
 def alertas_stock(inventario):
@@ -41,7 +38,7 @@ def alertas_stock(inventario):
         return
 
     print(
-        "\n=== ALERTAS DE INVENTARIO ==="
+        "\n::: ALERTAS DE INVENTARIO :::"
     )
 
     for proveedor, productos in proveedores.items():
@@ -65,9 +62,7 @@ def cierre_dia(inventario):
 
     if not ventas:
 
-        print(
-            "\nNo existen ventas registradas."
-        )
+        print("\nNo existen ventas registradas.")
 
         return
 
@@ -162,7 +157,7 @@ def cierre_dia(inventario):
             )
 
     print(
-        "\n===== CIERRE DEL DIA ====="
+        "\n::: CIERRE DEL DÍA :::"
     )
 
     print(

@@ -18,3 +18,4 @@ SNK001|Papas Fritas 45g|Snacks|2500.0|20|5|Margarita
 SNK002|Galletas Chocolate|Snacks|1800.0|30|10|Noel
 SNK003|Mani Salado 100g|Snacks|2200.0|6|8|Manimoto
 SNK004|Barra Cereal|Snacks|3000.0|15|5|Nature Valley
+2|r|Bebidas|4000.0|2|2|afg

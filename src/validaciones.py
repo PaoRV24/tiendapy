@@ -7,9 +7,7 @@ def leer_texto(mensaje):
         if dato:
             return dato
 
-        print(
-            "Error: el valor no puede estar vacío."
-        )
+        print("Error: el valor no puede estar vacío.")
 
 
 def leer_entero_positivo(mensaje):
@@ -22,9 +20,7 @@ def leer_entero_positivo(mensaje):
 
             if valor <= 0:
 
-                print(
-                    "Error: debe ser mayor que cero."
-                )
+                print("Error: debe ser mayor que cero.")
 
                 continue
 
@@ -32,9 +28,7 @@ def leer_entero_positivo(mensaje):
 
         except ValueError:
 
-            print(
-                "Error: ingrese un número entero válido."
-            )
+            print("Error: ingrese un número entero válido.")
 
 
 def leer_entero_no_negativo(mensaje):
@@ -47,9 +41,7 @@ def leer_entero_no_negativo(mensaje):
 
             if valor < 0:
 
-                print(
-                    "Error: no se permiten valores negativos."
-                )
+                print("Error: no se permiten valores negativos.")
 
                 continue
 
@@ -57,9 +49,7 @@ def leer_entero_no_negativo(mensaje):
 
         except ValueError:
 
-            print(
-                "Error: ingrese un número entero válido."
-            )
+            print("Error: ingrese un número entero válido.")
 
 
 def leer_float_positivo(mensaje):
@@ -72,9 +62,7 @@ def leer_float_positivo(mensaje):
 
             if valor <= 0:
 
-                print(
-                    "Error: el valor debe ser mayor que cero."
-                )
+                print("Error: el valor debe ser mayor que cero.")
 
                 continue
 
@@ -82,9 +70,7 @@ def leer_float_positivo(mensaje):
 
         except ValueError:
 
-            print(
-                "Error: ingrese un número válido."
-            )
+            print("Error: ingrese un número válido.")
 
 
 def leer_opcion(mensaje, opciones):
@@ -98,9 +84,7 @@ def leer_opcion(mensaje, opciones):
         if opcion in opciones:
             return opcion
 
-        print(
-            "Opción inválida."
-        )
+        print("Opción inválida.")
 
 
 def validar_categoria(categoria):

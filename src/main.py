@@ -24,61 +24,31 @@ from persistencia import (
 
 def mostrar_menu():
 
-    print(
-        "\n================================="
-    )
+    print("\n")
+    print("         TIENDAPY")
+    print("...........................")
 
-    print(
-        "         TIENDAPY"
-    )
+    print("1. Registrar producto")
 
-    print(
-        "================================="
-    )
+    print("2. Listar productos")
 
-    print(
-        "1. Registrar producto"
-    )
+    print("3. Buscar por codigo")
 
-    print(
-        "2. Listar productos"
-    )
+    print("4. Buscar por categoria")
 
-    print(
-        "3. Buscar por codigo"
-    )
+    print("5. Modificar producto")
 
-    print(
-        "4. Buscar por categoria"
-    )
+    print("6. Eliminar producto")
 
-    print(
-        "5. Modificar producto"
-    )
+    print("7. Registrar venta")
 
-    print(
-        "6. Eliminar producto"
-    )
+    print("8. Alertas de stock")
 
-    print(
-        "7. Registrar venta"
-    )
+    print("9. Cierre del dia")
 
-    print(
-        "8. Alertas de stock"
-    )
+    print("10. Guardar cambios")
 
-    print(
-        "9. Cierre del dia"
-    )
-
-    print(
-        "10. Guardar cambios"
-    )
-
-    print(
-        "0. Salir"
-    )
+    print("0. Salir")
 
 
 def main():
@@ -157,9 +127,7 @@ def main():
                     inventario
                 )
 
-                print(
-                    "\nInventario guardado correctamente."
-                )
+                print("\nInventario guardado correctamente.")
 
             elif opcion == "0":
 
@@ -167,49 +135,31 @@ def main():
                     inventario
                 )
 
-                print(
-                    "\nCambios guardados."
-                )
+                print("\nCambios guardados.")
 
-                print(
-                    "Hasta pronto."
-                )
+                print("Hasta pronto.")
 
                 break
 
             else:
 
-                print(
-                    "Opcion invalida."
-                )
+                print("Opcion invalida.")
 
         except ValueError as error:
 
-            print(
-                f"\nError: {error}"
-            )
+            print(f"\nError: {error}")
 
         except Exception as error:
 
-            print(
-                "\n================================="
-            )
+            print("\n")
 
-            print(
-                "ERROR INESPERADO"
-            )
+            print("ERROR INESPERADO")
 
-            print(
-                f"Detalle: {error}"
-            )
+            print(f"Detalle: {error}")
 
-            print(
-                "La aplicacion continuara ejecutandose."
-            )
+            print("La aplicacion continuara ejecutandose.")
 
-            print(
-                "================================="
-            )
+            print("......................................")
 
 
 if __name__ == "__main__":
